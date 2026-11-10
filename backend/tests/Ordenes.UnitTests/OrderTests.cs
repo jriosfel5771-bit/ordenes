@@ -1,5 +1,5 @@
 ﻿using Ordenes.Domain.Common;
-using Ordenes.Domain.Order;
+using Ordenes.Domain.Orders;
 using System;
 using System.Collections.Generic;
 using System.Text;

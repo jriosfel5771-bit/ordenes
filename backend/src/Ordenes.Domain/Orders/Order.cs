@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ordenes.Domain.Order
+namespace Ordenes.Domain.Orders
 {
     public class Order
     {
