@@ -1,0 +1,7 @@
+echo "> Lint frontend (ng lint)"
+(cd frontend && npx ng lint) || exit 1
+
+echo "> Formato backend (dotnet format)"
+(cd backend && dotnet format --verify-no-changes) || exit 1
+
+echo "> OK, commit permitido"

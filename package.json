@@ -1,0 +1,21 @@
+{
+  "name": "orders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "lint:front": "cd frontend && npx ng lint",
+    "lint:back": "cd backend && dotnet format --verify-no-changes",
+    "lint": "npm run lint:front && npm run lint:back"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
