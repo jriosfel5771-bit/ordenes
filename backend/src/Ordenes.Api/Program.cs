@@ -9,7 +9,7 @@ builder.Services.AddScoped<OrderService>();
 
 builder.Services
     .AddGraphQLServer()
-    //.AddApolloFederation()
+    .AddApolloFederation()
     .AddQueryType<OrderQueries>()
     .AddMutationType<OrderMutations>()
     .AddType<OrderType>()
