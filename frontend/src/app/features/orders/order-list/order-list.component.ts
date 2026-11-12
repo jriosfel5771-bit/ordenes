@@ -57,7 +57,6 @@ export class OrderListComponent {
   protected labels = STATUS_LABEL;
   protected statuses = Object.keys(STATUS_LABEL) as OrderStatus[];
   protected statusFilter = new FormControl<OrderStatus | null>(null);
-  const mmmm = 1;
 
   protected orders$ = this.statusFilter.valueChanges.pipe(
     startWith(this.statusFilter.value),

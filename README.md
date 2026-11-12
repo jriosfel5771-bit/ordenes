@@ -1,4 +1,4 @@
-![CI](https://github.com/TU-USUARIO/TU-REPO/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/jriosfel5771-bit/ordenes/actions/workflows/ci.yml/badge.svg)
 
 # Gestión de Órdenes de Exportación de Flores
 
