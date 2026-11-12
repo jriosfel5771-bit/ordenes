@@ -12,7 +12,7 @@ using Ordenes.Infrastructure.Context;
 namespace Ordenes.Infrastructure.Context.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20261110160828_InitialCreate")]
+    [Migration("20261110201032_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
